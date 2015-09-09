@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "UrbanDictionary Search",
+  "short_name": "Search",
+  "description": "Searches for the selected text in the UrbanDictionary",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus", 
+    "tabs"],
+  "icons": {
+    "16": "assets/search.png"
+  },
+  "background": {"page": "background.html"}
+}
